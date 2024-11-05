@@ -1,0 +1,74 @@
+\doxysection{Game\+Of\+Life Class Reference}
+\hypertarget{classGameOfLife}{}\label{classGameOfLife}\index{GameOfLife@{GameOfLife}}
+
+
+Clase que representa el Juego de la Vida de Conway.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameOfLife_a99e1e94a4051da159ac3be3785bd6a65}{Game\+Of\+Life}} (int width, int height)
+\begin{DoxyCompactList}\small\item\em Constructor que inicializa el juego con un tamaño específico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGameOfLife_a14f03b541c2d1a8a5f9aaa7a1e63f514}{update}} ()
+\begin{DoxyCompactList}\small\item\em Actualiza el estado de la cuadrícula según las reglas del juego. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGameOfLife_ad9031f790522d53f24f5744bc7df65d3}{draw}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Dibuja la cuadrícula en la ventana. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que representa el Juego de la Vida de Conway. 
+
+La clase gestiona la cuadrícula del juego, actualiza su estado y la dibuja en la ventana. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classGameOfLife_a99e1e94a4051da159ac3be3785bd6a65}\label{classGameOfLife_a99e1e94a4051da159ac3be3785bd6a65} 
+\index{GameOfLife@{GameOfLife}!GameOfLife@{GameOfLife}}
+\index{GameOfLife@{GameOfLife}!GameOfLife@{GameOfLife}}
+\doxysubsubsection{\texorpdfstring{GameOfLife()}{GameOfLife()}}
+{\footnotesize\ttfamily Game\+Of\+Life\+::\+Game\+Of\+Life (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor que inicializa el juego con un tamaño específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & Ancho de la cuadrícula. \\
+\hline
+{\em height} & Alto de la cuadrícula. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classGameOfLife_ad9031f790522d53f24f5744bc7df65d3}\label{classGameOfLife_ad9031f790522d53f24f5744bc7df65d3} 
+\index{GameOfLife@{GameOfLife}!draw@{draw}}
+\index{draw@{draw}!GameOfLife@{GameOfLife}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Game\+Of\+Life\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Dibuja la cuadrícula en la ventana. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & La ventana de SFML donde se dibujará la cuadrícula. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classGameOfLife_a14f03b541c2d1a8a5f9aaa7a1e63f514}\label{classGameOfLife_a14f03b541c2d1a8a5f9aaa7a1e63f514} 
+\index{GameOfLife@{GameOfLife}!update@{update}}
+\index{update@{update}!GameOfLife@{GameOfLife}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Game\+Of\+Life\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualiza el estado de la cuadrícula según las reglas del juego. 
+
+Este método aplica las reglas del Juego de la Vida de Conway para determinar qué celdas viven y mueren en la siguiente generación. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

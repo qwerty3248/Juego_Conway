@@ -1,0 +1,70 @@
+\doxysection{main.\+cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Implementación del Juego de la Vida de Conway usando SFML.  
+
+
+{\ttfamily \#include $<$SFML/\+Graphics.\+hpp$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classGameOfLife}{Game\+Of\+Life}}
+\begin{DoxyCompactList}\small\item\em Clase que representa el Juego de la Vida de Conway. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Función principal del programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{main_8cpp_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}} = 800
+\begin{DoxyCompactList}\small\item\em Ancho de la ventana. \end{DoxyCompactList}\item 
+\Hypertarget{main_8cpp_af728b7647e0b8c49832983a31f9a2e9b}\label{main_8cpp_af728b7647e0b8c49832983a31f9a2e9b} 
+const int {\bfseries HEIGHT} = 600
+\begin{DoxyCompactList}\small\item\em Alto de la ventana. \end{DoxyCompactList}\item 
+\Hypertarget{main_8cpp_a3d75a3045c57e393b76a1760deb2533c}\label{main_8cpp_a3d75a3045c57e393b76a1760deb2533c} 
+const int {\bfseries CELL\+\_\+\+SIZE} = 10
+\begin{DoxyCompactList}\small\item\em Tamaño de cada celda en la cuadrícula. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementación del Juego de la Vida de Conway usando SFML. 
+
+Este archivo contiene la implementación principal del Juego de la Vida de Conway, incluyendo la clase \doxylink{classGameOfLife}{Game\+Of\+Life} que gestiona la lógica del juego y la renderización usando la biblioteca SFML. 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Función principal del programa. 
+
+Inicializa la ventana, crea una instancia del juego y gestiona el bucle principal.
+
+\begin{DoxyReturn}{Returns}
+0 si la ejecución es exitosa. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8cpp_a9649ab8139c4c2ea5c93625b30d92a05}\label{main_8cpp_a9649ab8139c4c2ea5c93625b30d92a05} 
+\index{main.cpp@{main.cpp}!WIDTH@{WIDTH}}
+\index{WIDTH@{WIDTH}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{WIDTH}{WIDTH}}
+{\footnotesize\ttfamily const int WIDTH = 800}
+
+
+
+Ancho de la ventana. 
+
+\texorpdfstring{$<$}{<} Biblioteca para gráficos Biblioteca para usar vectores Biblioteca para funciones generales como rand() 
